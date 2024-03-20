@@ -12,7 +12,7 @@ body {
 }
 
 .main {
-  max-width: 45%;
+  max-width: 30%;
   display: flex;
   margin: 10% auto;
   flex-direction: column;
@@ -44,6 +44,7 @@ body {
   padding: 2rem 2rem;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+
 }
 
 h1 {
