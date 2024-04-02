@@ -7,8 +7,10 @@
 }
 
 body {
+  height: 100vh;
   background-image: linear-gradient(#615dad, #ffc8da);
-  background-repeat: no-repeat;
+
+
 }
 
 .game {
