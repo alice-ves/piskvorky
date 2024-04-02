@@ -17,7 +17,7 @@ body {
 .game {
   width: 100%;
   max-width: 80vmin;
-  margin: 0.8% auto;
+  margin: 0.5% auto 0.5%;
   display: flex;
   flex-direction: column;
 
@@ -26,6 +26,7 @@ body {
 h1 {
   font-family: "lobster";
   font-size: 40px;
+
   font-weight: normal;
   text-align: center;
 }
@@ -34,7 +35,7 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 2%;
+  padding-bottom: 2%;
 }
 
 .info-container--item {
