@@ -7,18 +7,20 @@
 }
 
 body {
+  height: 100vh;
   background-image: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
-
-
+  display: flex;
+  align-items: center;
 }
 
 .game {
+  width: 100%;
   max-width: 80vmin;
   margin: 0.8% auto;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
+
 }
 
 h1 {
@@ -32,6 +34,7 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 2%;
 }
 
 .info-container--item {
