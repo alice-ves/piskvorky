@@ -75,6 +75,7 @@ button {
   border: 0.5px solid black;
 }
 
-button:hover button:focus {
+button:hover,
+button:focus {
   opacity: 0.8;
 }
