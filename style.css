@@ -7,8 +7,10 @@
 
 body {
   display: flex;
+  justify-content: center;
   background-image: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
+
 }
 
 main {
