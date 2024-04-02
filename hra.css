@@ -7,15 +7,15 @@
 }
 
 body {
-  height: 100vh;
   background-image: linear-gradient(#615dad, #ffc8da);
+  background-repeat: no-repeat;
 
 
 }
 
 .game {
   max-width: 80vmin;
-  margin: 1% auto;
+  margin: 0.8% auto;
   display: flex;
   flex-direction: column;
   /*align-items: center;*/
@@ -23,7 +23,7 @@ body {
 
 h1 {
   font-family: "lobster";
-  font-size: 50px;
+  font-size: 40px;
   font-weight: normal;
   text-align: center;
 }
@@ -38,12 +38,12 @@ h1 {
   align-items: center;
   display: flex;
   gap: 10px;
-  margin: 5PX 0;
+  margin: 3px 0;
 }
 
 .icon {
   border-radius: 5px;
-  padding: 8px;
+  padding: 5px;
 }
 
 .icon--home {
