@@ -23,7 +23,7 @@ main {
 }
 
 @media(max-width:765px) {
-  .main {
+  main {
     max-width: 70%
   }
 }
