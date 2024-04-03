@@ -17,7 +17,7 @@ body {
 .game {
   width: 100%;
   max-width: 80vmin;
-  margin: 0.5% auto 0.5%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 
@@ -26,13 +26,13 @@ body {
 h1 {
   font-family: "lobster";
   font-size: 40px;
-
+  width: 90%;
   font-weight: normal;
   text-align: center;
 }
 
 .info-container {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   padding-bottom: 2%;
@@ -70,7 +70,7 @@ h1 {
 .hraci-pole {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
 }
 
 button {
