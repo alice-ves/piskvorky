@@ -67,7 +67,7 @@ h1 {
   background-color: #0090e9;
 }
 
-.hraci-pole {
+.game-field {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
@@ -81,7 +81,40 @@ button {
   border: 0.5px solid black;
 }
 
+
+.field__button {
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+/* stylovani trid pro JS*/
+
+.field__button--circle {
+  background-image: url(materials/circle-black.svg);
+  animation: zoomIn 0.5s ease
+}
+
+.field__button--cross {
+  background-image: url(materials/cross-black.svg);
+  animation: zoomIn 0.5s ease
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.1);
+
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/*
 button:hover,
 button:focus {
   opacity: 0.8;
 }
+*/
